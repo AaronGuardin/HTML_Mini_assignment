@@ -4,8 +4,8 @@ A clean, responsive, and lightweight website built using standard web technologi
 
 ## Live Demo
 
-You can view the live, hosted version of this project to check meta tag here is the link:  
- **[Launch Live Website](https://sparkly-paletas-8f1c61.netlify.app)**
+You can view the live, hosted version of this project to check meta tag by sharing this link:  
+ **[Launch Live Website](https://magenta-lamington-d6ca3b.netlify.app)**
 
 ## Features
 
