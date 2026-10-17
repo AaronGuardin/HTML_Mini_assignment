@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="public/fav.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Sample Website</title>
+    <meta property="og:title" content="My Sample Website" />
+    <meta
+      property="og:description"
+      content="A sample website showcasing image gallery, tables, videos, maps, and contact forms."
+    />
+    <!-- I use kyaung logo as sample -->
+    <meta
+      property="og:image"
+      content="https://kyaung.bib-mm.com/img/logo.2f945291.png"
+    />
+    <meta property="og:url" content="https://mysample.com/index.html" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <header>
+      <h1>My Sample Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li>
+            <a
+              href="https://www.w3schools.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              W3 School
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home"></section>
+
+      <hr />
+
+      <section id="gallery">
+        <h2>Image Gallery</h2>
+        <div>
+          <img src="imgs/cat.png" alt="Cute cat wearing pink hat" />
+          <img
+            src="imgs/sunflower.jpg"
+            alt="Yellow sunflower with decorative doodles"
+          />
+          <img src="imgs/tulips.jpg" alt="Field of pink tulips" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Table Layout</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Role</th>
+              <th>Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alice</td>
+              <td>Developer</td>
+              <td>Japan</td>
+            </tr>
+            <tr>
+              <td>Bob</td>
+              <td>Designer</td>
+              <td>Myanmar</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Video</h2>
+        <video width="400" controls>
+          <source src="sample.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Map Embed</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.042866567559!2d96.16908147553809!3d16.77454278401188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ed001207eb45%3A0xfe164edb6375fe9f!2sBIB%20Co.%2C%20Ltd.!5e0!3m2!1sen!2smm!4v1792043277381!5m2!1sen!2smm"
+          width="600"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input required type="text" id="name" name="name" />
+          <br />
+          <br />
+
+          <label for="email">Email:</label>
+          <input required type="email" id="email" name="email" />
+          <br /><br />
+
+          <label for="password">Password:</label>
+          <input required type="password" id="password" name="password" />
+          <br />
+          <br />
+
+          <input required type="checkbox" id="newsletter" name="newsletter" />
+          <label for="newsletter">Subscribe to newsletter</label>
+          <br />
+          <br />
+
+          <label>Gender:</label>
+          <input required type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <br />
+          <br />
+
+          <label for="file">Upload File:</label>
+          <input required type="file" id="file" name="file" />
+          <br />
+          <br />
+
+          <label for="country">Select Country:</label>
+          <select id="country" name="country">
+            <option value="japan">Japan</option>
+            <option value="myanmar" selected>Myanmar</option>
+            <option value="usa">USA</option>
+          </select>
+          <br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Text your message here"
+            rows="4"
+            cols="30"
+          ></textarea>
+          <br />
+          <br />
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Follow Us</h2>
+      <ul>
+        <li>
+          <a
+            href="https://bib-mm.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >BIB</a
+          >
+        </li>
+        <li>09 98765432</li>
+        <li>
+          <a href="mailto:aaronguardin@gmail.com">aaronguardin@gmail.com</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
